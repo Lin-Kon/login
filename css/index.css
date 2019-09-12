@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  .wrapper {
+    flex: 1 0 auto;
+  }
+  .msg {
+      text-align: center;
+  }
+  .footer {
+    flex-shrink: 0;
+    text-align: center;
+    background-color: #a8de89;
+  }
+  form.user .form-control-user {
+    font-size: 1.2rem;
+    border-radius: 10rem;
+    padding: 1.5rem 1rem;
+  }
+  
+  form.user .btn-user {
+    font-size: 1.2rem;
+    border-radius: 10rem;
+    padding: 0.75rem 1rem;
+  }
